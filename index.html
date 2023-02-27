@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone HBO+</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link rel="shortcut icon" href="dist/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="dist/images/logo.webp" alt="HBO+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#" class="button button--secondary">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="dist/images/logo.webp" alt="HBO+">
+            </div>
+            <h3 class="title--small">
+                Data de lançamento 29 de março de 2018 
+            </h3>
+            <p>
+                <a href="#" class="link-text">Assinar o HBO MAX</a>
+                <br>
+                <span class="text">
+                    R$ 27,90/mês ou R$ 279,90/ano à vista*
+                </span>
+            </p>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <button class="button">Assine agora</button>
+                    <span class="text">R$ 45,90/mês*</span>
+                </li>
+                <li class="hero__content__combos__combo">
+                    <button class="button">Assine agora</button>
+                    <span class="text">R$ 45,90/mês*</span>
+                </li>
+            </ul>
+            <p class="text--small">
+                *O preço pode variar caso a assinatura seja feita atraés de outras plataformas.
+            </p>
+        </div>   
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Elenco Masculino
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Elenco Feminino
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/simon-pegg.png" alt="Spidey">
+                <h3 class="title--small">Simon Pegg</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/tye-sheridan.png" alt="Spidey">
+                <h3 class="title--small">Tye Sheridan</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/ben-mendelsohn.png" alt="Spidey">
+                <h3 class="title--small">Ben Mendelsohn</h3>
+            </li>
+        </ul>
+
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/letitia-wright.png" alt="Obi Wan">
+                <h3 class="title--small">Letitia Wright</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/olivia-cooke.png" alt="Obi Wan">
+                <h3 class="title--small">Olivia Cooke</h3>
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/em_breve/mckenna-grace.png" alt="Obi Wan">
+                <h3 class="title--small">Mckenna Grace</h3>
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">Escolha seu plano</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/HBO_Max_Logo.svg/2560px-HBO_Max_Logo.svg.png" alt="">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text--big">
+                    No HBO+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/HBO_Max_Logo.svg/2560px-HBO_Max_Logo.svg.png" alt="">
+                <strong class="title--small">R$ 45,90/mês*</strong>
+                <p class="text--big">
+                    Assine HBO+ e Discovery juntos. Economize e aproveite agora os dois serviços por um preço único.
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/HBO_Max_Logo.svg/2560px-HBO_Max_Logo.svg.png" alt="">
+                <strong class="title--small">R$ 55,90/mês*</strong>
+                <p class="text--big">
+                    HBO+, Discovery e STARZPLAY em um plano especial. Assine agora os três serviços juntos.
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *O preço pode variar caso a assinatura seja feita através de outras plataformas
+        </p>
+    </section>
+    <section class="image-text-section">
+        <img src="dist/images/em_breve/post-apresentacao.png" alt="">
+        <div class="image-text-section__text__container">
+            <h2 class="title">Sobre</h2>
+            <p class="text--big">
+                Em 2045, Wade Watts, assim como o resto da humanidade, prefere a realidade virtual do jogo OASIS ao mundo real. James Halliday, o excêntrico criador do jogo, morre e deixa sua fortuna inestimável para a primeira pessoa que descobrir a chave de um quebra-cabeça diabólico que ele arquitetou. Para vencer, Watts precisa abandonar a existência virtual e experimentar o amor e a realidade.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOS</li>
+                    <li>PC Windows</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/tv.png" alt="">
+                <h4 class="title--small">TV</h4>
+                <ul class="text">
+                    <li>Amazon Fire TV</li>
+                    <li>Android TV</li>
+                    <li>Apple TV</li>
+                    <li>Chromecast</li>
+                    <li>TVs LG</li>
+                    <li>Roku</li>
+                    <li>Samsung</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/videogames.png" alt="">
+                <h4 class="title--small">Videogames</h4>
+                <ul class="text">
+                    <li>PS4</li>
+                    <li>PS5</li>
+                    <li>Xbox One</li>
+                    <li>Xbox Series X</li>
+                    <li>Xbox Series S</li>
+                </ul>
+            </li>
+            <li class="available-devices__list__item">
+                <img src="dist/images/dispositivos/celular.png" alt="">
+                <h4 class="title--small">Celulares e tablets</h4>
+                <ul class="text">
+                    <li>Tablets Amazon Fire</li>
+                    <li>Celulares e Tablets Android</li>
+                    <li>iPhone e iPad</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    O que está incluído no HBO+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Resposta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Já tem o HBO MAX ou Discovery e quer o Combo+?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Quais formas de pagamento posso utilizar?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="dist/images/logo.webp" alt="HBO">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <select name="" id="">
+                            <option>English</option>
+                            <option selected>Português</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Dispositivo compatíveis</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Sobre o HBO+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2022 HBO MAX e Discovery. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                HBO+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço HBO+ é comercializado por Discovery (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+            </p>
+        </div>
+    </footer>
+    <script src="dist/js/main.js"></script>
+</body>
+</html>
